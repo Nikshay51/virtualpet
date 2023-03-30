@@ -1,0 +1,11 @@
+.speech-bubble-container {
+    position: relative;
+    left: 100%;
+    transform: translateY(150%);
+    display: inline-block;
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Helvetica', Times, serif;
+    }

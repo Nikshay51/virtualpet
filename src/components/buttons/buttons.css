@@ -1,0 +1,13 @@
+.activeButton {
+  background-color: orange;
+  padding: 2%;
+  border: none;
+  border-radius: 25%;
+}
+
+.inactiveButton {
+  background-color: grey;
+  padding: 2%;
+  border: none;
+  border-radius: 25%;
+}

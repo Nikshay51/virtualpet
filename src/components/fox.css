@@ -1,0 +1,144 @@
+.idle {
+  position: relative;
+  top: calc(100% - 250px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.7);
+  background-image: url("../../public/AtRest.png");
+  background-repeat: no-repeat;
+  width: 117px;
+  height: 165px;
+  animation: idle 2s steps(3) infinite;
+}
+@keyframes idle {
+  to {
+    background-position: -372px;
+  }
+}
+
+.eating {
+  position: relative;
+  top: calc(100% - 250px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.7);
+  background-image: url("../../public/Eating.png");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 165px;
+  animation: eating 3s steps(10);
+}
+
+@keyframes eating {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -2073px;
+  }
+}
+
+.happy {
+  position: relative;
+  top: calc(100% - 250px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.7);
+  background-image: url("../../public/Yay.png");
+  background-repeat: no-repeat;
+  width: 130.8px;
+  height: 213px;
+  animation: happy 2s steps(5) infinite;
+}
+@keyframes happy {
+  to {
+    background-position: -654px;
+  }
+}
+
+.hungry {
+  position: relative;
+  top: calc(100% - 250px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.7);
+  background-image: url("../../public/Hungry.png");
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 160px;
+  animation: hungry 1s steps(2) infinite;
+}
+
+@keyframes hungry {
+  to {
+    background-position: -260px;
+  }
+}
+.dead {
+  position: relative;
+  top: calc(100% - 250px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.7);
+  background-image: url("../../public/TombStone.png");
+  background-repeat: no-repeat;
+  width: 118px;
+  height: 119px;
+  animation: dead 1s steps(3) infinite;
+}
+@keyframes dead {
+  to {
+    background-position: -354px;
+  }
+}
+
+.egg {
+  position: relative;
+  top: calc(100% - 250px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.7);
+  background-image: url("../../public/Egg1.png");
+  background-repeat: no-repeat;
+  width: 175px;
+  height: 217px;
+  animation: egg 2s steps(3) infinite;
+}
+@keyframes egg {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -525px;
+  }
+}
+.hatching {
+  position: relative;
+  top: calc(100% - 250px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.7);
+  background-image: url("../../public/Egg2.png");
+  background-repeat: no-repeat;
+  width: 175px;
+  height: 217px;
+  animation: hatching 3s steps(4);
+}
+@keyframes hatching {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -700px;
+  }
+}
+
+.sleeping {
+  position: relative;
+  top: calc(100% - 250px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.7);
+  background-image: url("../../public/Sleeping.png");
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 155px;
+  animation: sleeping 4s steps(4) infinite;
+}
+@keyframes sleeping {
+  to {
+    background-position: -1000px;
+  }
+}
